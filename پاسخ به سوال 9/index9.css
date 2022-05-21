@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.firstcol,
+.secondcol,
+.thirdcol,
+.forthcol {
+    flex-wrap: nowrap;
+    width: 250px;
+    margin-left: 10px;
+    
+}
+
+.firstpic1,
+.secondpic2,
+.firstpic3,
+.secondpic4 {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.secondpic1,
+.firstpic2,
+.secondpic3,
+.firstpic4 {
+    width: 250px;
+    height: 400px;
+}
+
+@media screen and (max-width: 526px) {
+
+    .firstcol,
+    .secondcol,
+    .thirdcol,
+    .forthcol {
+        width: 650px;
+        margin-left:15%;
+    }
+
+}
