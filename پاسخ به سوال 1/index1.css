@@ -1,0 +1,69 @@
+.rightcolumn {
+    width: 50%;
+    height: 96vh;
+    float: right;
+    background-image: url("1.jpg");
+    background-size: contain;
+
+
+}
+
+.leftcolumn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(246,247,251);
+    height: 96vh;
+    width: 50%; 
+
+}
+
+.formInput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 498px;
+    margin-left: 148px;
+    margin-right: 148px;
+
+}
+
+.RememberForget {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color:rgb(116, 112, 112)
+}
+button {
+    background-color: rgb(235,125,61);
+    border: none;
+    color: white;
+}
+a{
+    text-decoration-color: gray;
+    color:rgb(116, 112, 112);
+}
+
+p {
+    margin-bottom: 28px;
+    color: grey;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.checkbox{
+    accent-color: rgb(235,125,61);
+}
+
+.myinput {
+    padding: 11px;
+    margin-bottom: 13px;
+    margin-top: 4px;
+    border: none;
+}
+
+
+
